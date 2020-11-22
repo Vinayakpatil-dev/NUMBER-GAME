@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Montserrat;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+}
+
+.ins{
+    width:100%;
+    height:auto;
+    background-color: darkslategray;    
+    padding:20px 25px;
+}
+.ins h1{
+    color:white;
+    letter-spacing: 2px;
+    position: relative;
+    left:550px;
+    margin-bottom: 20px;
+}
+
+li{
+    color:white;
+    line-height: 45px;
+}
+ol{
+    margin-top: 70px;
+}
+
+.glitches{
+    width:100%;
+    height:auto;
+    background-color: rgb(8, 102, 102);    
+    padding:20px 25px;
+}
+
+.glitches h1{
+    color:white;
+    letter-spacing: 2px;
+    position: relative;
+    left:550px;
+    margin-bottom: 10px;
+}
+
+.glitches  li{
+    padding-bottom: 22px;
+}
+
+.start{
+    width:100%;
+    height:auto;
+    background-color: rgb(8, 72, 102);    
+    padding:20px 25px;
+}
+
+.start a{
+    color:wheat;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    left:559px;
+    border:2px solid white;
+    padding:10px 20px;
+    border-radius:20px;
+    transition:.5s;
+}
+
+a:hover{
+    background-color:white;
+    color:rgb(8, 72, 102);
+}
+.ins,.glitches:hover{
+    cursor: default;
+}
